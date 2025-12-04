@@ -15,7 +15,7 @@ based on historical NBA game statistics.
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1_eda_challenge_2.ipynb**           | Conducts the **exploratory data analysis (EDA)** for the challenge. Includes distribution checks, correlations, missing values inspection, and initial insights to understand the dataset.                        |
 | **2_feature_eng_challenge_2.ipynb**   | Performs **feature engineering**, transformations, and selection. Features were filtered by retaining those required to reach **95% of total importance**, calculated via `xgb_clf.feature_importances_`.         |
-| **3_training_xgb_challenge_2.ipynb**  | Trains XGBoost models **with and without Hyperopt**, and also trains models **with and without feature engineering** to compare performance. Includes **MLflow tracking** for parameters, metrics, and artifacts. |
+| **3_training_xgb_challenge_2.ipynb**  | Trains XGBoost models **with and without Hyperopt**, and also trains models **without feature engineering** to compare performance. Includes **MLflow tracking** for parameters, metrics, and artifacts. |
 | **4_training_xgb2_challenge_2.ipynb** | Final training notebook using **feature engineering + Hyperopt**, producing the **best model**. Also includes **MLflow tracking** for full experiment reproducibility.                                            |
 
 # Datasets
