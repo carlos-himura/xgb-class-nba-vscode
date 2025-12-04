@@ -1,4 +1,4 @@
-#NBA Classification Challenge – Local XGBoost Modeling (VS Code)
+# NBA Classification Challenge – Local XGBoost Modeling (VS Code)
 
 This repository contains the local development version of an NBA binary classification project.
 All experimentation was done in VS Code, including EDA, feature engineering, modeling, Hyperopt tuning, and MLflow tracking.
